@@ -32,6 +32,20 @@ This repository serves as:
 - A study resource for reviewing Python concepts
 - A demonstration of growth and progress throughout the course
 
+## Repository Structure
+
+/Class Notes - Course notes and study materials
+
+/Lab1 - Lab assignments and exercises
+
+*.py - Python practice programs and assignments
+
+README.md - Repository overview and documentation
+
+## Current Status
+
+This repository is actively updated throughout the semester as new assignments, notes, and programming exercises are completed.
+
 ## Feedback and Suggestions
 
 Questions, corrections, and suggestions for improvement are welcome. If you notice an error or have an idea that could improve the project, please open an Issue and provide a brief description.
