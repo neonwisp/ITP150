@@ -1,6 +1,6 @@
 """
 code_to_debug.py
-Author: ITP 150 Student Put Your Name Here
+Author: ITP 150 Ashlee Raya     # Error 9, added author name 
 Date Created: March 29, 2025
 This program contains numerous errors and we will go through the process
 of debugging it relying on syntax highlighting and reading tracebacks.
