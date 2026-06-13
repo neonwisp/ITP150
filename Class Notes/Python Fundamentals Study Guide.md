@@ -86,41 +86,71 @@ Arguments:
 B. input() Function
 
 Purpose: Prompts the user for input and reads it from the console.
+
 Syntax: variable_name = input("Prompt message: ")
+
 Components:
-variable_name: A name chosen by the programmer to store the user's input.
-input(): The function that pauses program execution, displays the prompt, and waits for user entry.
-"Prompt message: ": A string displayed to the user, instructing them what to enter.
-Storing Input: The user's input is stored as a string in the specified variable_name.
+- variable_name: A name chosen by the programmer to store the user's input.
+
+- input(): The function that pauses program execution, displays the prompt, and waits for user entry.
+
+- "Prompt message: ": A string displayed to the user, instructing them what to enter.
+
+- Storing Input: The user's input is stored as a string in the specified variable_name.
+
 Example:
 first_name = input("What is your first name? ")
 print(first_name)
- When run, it will display "What is your first name? ", wait for user input, and then print the entered name.
+ - When run, it will display "What is your first name? ", wait for user input, and then print the entered name.
+
+
 III. Variables
+
 A. Definition
-Variable: A named storage location in the computer's memory (RAM) that holds a value.
-Memory Address: Each variable is linked to a specific memory address (e.g., 0x12ABCD). Python handles this internally, allowing you to refer to data by its human-readable name.
+
+- Variable: A named storage location in the computer's memory (RAM) that holds a value.
+
+- Memory Address: Each variable is linked to a specific memory address (e.g., 0x12ABCD). Python handles this internally, allowing you to refer to data by its human-readable name.
+
+
 B. Naming Conventions
-No Spaces: Variable names cannot contain spaces.
-Incorrect: first name = "John" (Python will treat first and name as separate entities, leading to errors).
-Underscore for Multiple Words: Use an underscore (_) to separate words in a variable name for readability.
-Correct: first_name = "John"
-Reusability: Variables allow you to store and reuse data throughout your program without hard-coding values. This is essential for dynamic programs (e.g., user logins, changing data).
-DRY Principle: Don't Repeat Yourself. Variables promote this by allowing you to store a value once and refer to it by name multiple times.
+
+- No Spaces: Variable names cannot contain spaces.
+    - Incorrect: first name = "John" (Python will treat first and name as separate entities, leading to errors).
+
+- Underscore for Multiple Words: Use an underscore (_) to separate words in a variable name for readability.
+    - Correct: first_name = "John"
+
+- Reusability: Variables allow you to store and reuse data throughout your program without hard-coding values. This is essential for dynamic programs (e.g., user logins, changing data).
+
+- DRY Principle: Don't Repeat Yourself. Variables promote this by allowing you to store a value once and refer to it by name multiple times.
+
 IV. Important Facts to Memorize
-VS Code Launch Command: code
-VS Code Password: code
-Open VS Code Terminal: Ctrl + `
-Change Directory Command: cd
-List Files Command: ls
+
+- VS Code Launch Command: code
+
+- VS Code Password: code
+
+- Open VS Code Terminal: Ctrl + `
+
+- Change Directory Command: cd
+
+- List Files Command: ls
 Grant Execute Permission: chmod +x <filename.py>
-Create Directory Command: mkdir
-Save File in VS Code: Ctrl + S
-Default print() separator: A single space (' ')
-Default print() end character: Newline (\n)
-Variable Naming Rule: No spaces; use underscores for multiple words (e.g., my_variable).
-input() function returns data as a: String.
-Purpose of end='' in print(): To prevent a newline and continue output on the same line.
-Purpose of sep='' in print(): To remove the default space separator between printed items.
-DRY Principle: Don't Repeat Yourself.
-Python is case-sensitive for commands, file names, and variable names.
+
+- Create Directory Command: mkdir
+
+- Save File in VS Code: Ctrl + S
+
+- Default print() separator: A single space (' ')
+
+- Default print() end character: Newline (\n)
+
+- Variable Naming Rule: No spaces; use underscores for multiple words (e.g., my_variable).
+
+- input() function returns data as a: String.
+
+- Purpose of end='' in print(): To prevent a newline and continue output on the same line.
+- Purpose of sep='' in print(): To remove the default space separator between printed items.
+- DRY Principle: Don't Repeat Yourself.
+- Python is case-sensitive for commands, file names, and variable names.
