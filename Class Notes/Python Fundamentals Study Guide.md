@@ -1,10 +1,11 @@
-Python Fundamentals Study Guide
+# Python Fundamentals Study Guide
 
 This guide covers essential Python concepts, focusing on environment setup, basic input/output operations, and variable handling. Mastery of these topics is crucial for success.
 
-I. Environment Setup & Navigation
+---
+## I. Environment Setup & Navigation
                 
-A. Cyber Range Environment
+### A. Cyber Range Environment
 - Purpose: A virtual environment pre-configured with necessary tools like VS Code and Firefox for Python development.
 - Access: Log in to Cyber Range.
 - Password Saving: Easier to save your password within Cyber Range to avoid re-entering.
@@ -14,7 +15,7 @@ A. Cyber Range Environment
     - Terminal Command: Type code in the terminal to launch VS Code.
     - VS Code Password: The password for VS Code is code.
 
-B. Terminal Commands (Linux-based)
+### B. Terminal Commands (Linux-based)
 
 - ls: Lists all files and directories in the current location.
     - ls -a: Shows all files, including hidden files.
@@ -32,7 +33,7 @@ B. Terminal Commands (Linux-based)
 - mkdir <directory_name>: Make Directory. Creates a new directory.
     - Example: mkdir ITP150
 
-C. Visual Studio Code (VS Code)
+### C. Visual Studio Code (VS Code)
 
 - Opening Terminal: Press Ctrl + ` (backtick/tilde key, usually above Tab).
 
@@ -46,13 +47,14 @@ C. Visual Studio Code (VS Code)
 - AI Suggestions (e.g., GitHub Copilot): If prompted to sign in or use AI suggestions, close them. We are not using AI support for this course.
 - Python Extension: If prompted, install the recommended Python extension.
 
-II. Basic Python Operations
+---
+## II. Basic Python Operations
 
-A. print() Function
+### A. print() Function
 
 - Purpose: Displays output to the console.
-- Syntax: print(<value1>, <value2>, ..., 
-- sep='<separator>', end='<end_string>')
+- Syntax: print(< value1 >,  < value2 >, ..., - sep='<separator>', end='<end_string>')
+
 Arguments:
 
     - values: Can be strings (enclosed in single or double quotes), numbers, variables, etc.
@@ -71,8 +73,9 @@ Arguments:
 - Example: print("Today is Monday", end='...') followed by print("I like string beans.") will output Today is Monday...I like string beans..
 - Adding Characters: end='%%' will add %% at the end of the line.
 
+---
 
- - String Literals: Text enclosed in single (' ') or double (" ") quotation marks.
+- String Literals: Text enclosed in single (' ') or double (" ") quotation marks.
 - Concatenation vs. Separate Arguments:
     - print("Hello" + "World") concatenates strings directly.
     - print("Hello", "World") prints "Hello" and "World" separated by the default space.
@@ -83,7 +86,8 @@ Arguments:
     - Desired Output: Compare the program's output with the expected result.
     - Error Messages: Look for SyntaxError, NameError, ValueError in the terminal.
 
-B. input() Function
+
+### B. input() Function
 
 Purpose: Prompts the user for input and reads it from the console.
 
@@ -103,17 +107,17 @@ first_name = input("What is your first name? ")
 print(first_name)
  - When run, it will display "What is your first name? ", wait for user input, and then print the entered name.
 
+---
+## III. Variables 
 
-III. Variables
-
-A. Definition
+### A. Definition
 
 - Variable: A named storage location in the computer's memory (RAM) that holds a value.
 
 - Memory Address: Each variable is linked to a specific memory address (e.g., 0x12ABCD). Python handles this internally, allowing you to refer to data by its human-readable name.
 
 
-B. Naming Conventions
+### B. Naming Conventions
 
 - No Spaces: Variable names cannot contain spaces.
     - Incorrect: first name = "John" (Python will treat first and name as separate entities, leading to errors).
@@ -125,7 +129,8 @@ B. Naming Conventions
 
 - DRY Principle: Don't Repeat Yourself. Variables promote this by allowing you to store a value once and refer to it by name multiple times.
 
-IV. Important Facts to Memorize
+---
+## IV. Important Facts to Memorize
 
 - VS Code Launch Command: code
 
