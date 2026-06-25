@@ -30,5 +30,6 @@ import math
 result = 2**4
 check = 2**4.
 
+# comparing 2**4 and 2**4.
 print(result)
 print(check)
