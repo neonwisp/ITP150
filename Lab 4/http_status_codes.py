@@ -16,15 +16,15 @@ status codes. An unknown status code results in an Unknown description.
 status_code = int(input('Please enter the status code:'))
 # determines description of HTTP status code or "Unknown" if not found.
 match status_code:
-case 200:
-    description = "(OK): The request has succeeded."
-case 201:
-    description = ("(Created): Request has been fulfilled and a new "
-                  "resource has been created.")
-case 301:
-    description = ("(Moved Permanently): Requested resource was "
-                    "permanently moved to a new URL.")
-     case 302:
+    case 200:
+        description = "(OK): The request has succeeded."
+    case 201:
+        description = ("(Created): Request has been fulfilled and a new "
+                       "resource has been created.")
+    case 301:
+        description = ("(Moved Permanently): Requested resource was "
+                       "permanently moved to a new URL.")
+    case 302:
         description = ("(Found): Requested resource was temporarily moved to a"
                        "different URL.")
     case 404:
