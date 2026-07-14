@@ -2,7 +2,7 @@
 cookie_sales.py
 Author: ITP 150 Ashlee Raya
 Date Created: 7/14/2026
-This script calculates the total sales for cookies at a stand. The total sale
+This script calculates the total sales for cookies at a stand. The total sales
 for each customer is calculated. The total sale for all customers is
 calculated and printed. We are using a sentinel value loop to control the
 running of the program where the customer must enter Y to run the program or
