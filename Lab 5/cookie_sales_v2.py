@@ -1,8 +1,8 @@
 """
-cookie_sales.py
-Author: ITP 150 Ashlee Raya
+cookie_sales_v2.py
+@Author: ITP 150 Ashlee Raya
 Date Created: 7/14/2026
-This script calculates the total sales for cookies at a stand. The total sales
+This script calculates the total sales for cookies at a stand. The total sale
 for each customer is calculated. The total sale for all customers is
 calculated and printed. We are using a sentinel value loop to control the
 running of the program where the customer must enter Y to run the program or
@@ -11,10 +11,10 @@ types of cookies and their prices to the customer. The types of cookies and
 their prices are stored in lists.
 """
 
+
 troop_sales = 0
 
-buy_cookies = input('Would you like to buy some cookies? (Y/N)?')
-while buy_cookies.upper() == 'Y':
+while True:
     cookies = ['Minty Thins', 'Peanut Butter Bundles', 'Shortcakes']
     prices = [5.00, 6.00, 5.50]
     print('Here are the types of cookies we have for sale and their prices:')
@@ -44,7 +44,10 @@ while buy_cookies.upper() == 'Y':
     print(f'{sc_qty:<5}{cookies[2]:<25s}{sc_sale:>10.2f}')
     print(f'{"Total Customer Sale":30s}{customer_sale:>10.2f}')
 
-    buy_cookies = input('Would you like to buy some more cookies (Y/N)?')
+    buy_cookies = input('Would you like to buy some more cookies (Y/N)?\n')
+    if buy_cookies.upper() != 'Y':
+        break
 
 print(f'{"Total Troop Sales":30s}{troop_sales:>10.2f}')
 print('Thanks for your support!')
+
