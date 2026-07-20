@@ -1,7 +1,7 @@
 """
 sales_taxes_without_functions.py
-@author: ITP 150 Student. Put your name here.
-Date Created: Put current date here.
+@Author: ITP 150 Ashlee Raya
+Date Created: 7/14/2026
 This script calculates different types of tax amounts for a purchase.
 It calculates the total taxes and the total sales after taxes. To assist
 in learning, this script will be modified to incorporate a function that
